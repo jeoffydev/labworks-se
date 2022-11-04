@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web practice</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web practice" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="[Your name]" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
+      * {
+        box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        header {
+            background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            height: 15vh;
+            color: aliceblue;
+        }
+
+        main {
+            display: flex;
+            height: 100%;
+        }
+
+        nav {
+            background: #051937;
+        }
+
+        nav a {
+            color: #ffd54f;
+            text-decoration: none;
+        }
+
+        article {
+            flex: 1;
+            background: #DEDEDE;
+        }
+        article.experience {
+            background-color: #051937;
+            color: #DEDEDE;
+        }
+
+        aside {
+            flex: 1;
+            background: #008793;
+        }
+
+        footer {
+            background: #4caf50;
+            height: 20vh;
+        }
+
+        header,
+        footer,
+        article,
+        nav,
+        aside {
+            padding: 1em;
+        }
+
+        h5 span {
+            color: #a8eb12;
+            font-style: italic;
+        }
+        .skills {
+            display: inline;
+        }
+        .skills li {
+            background-color: #051937;
+            color: #DEDEDE;
+            width: 9rem;
+            height: 30px;
+            float: left;
+            list-style-type: none;
+            padding: 0.3rem;
+            margin: 0 0.3rem 0.3rem;
+            text-align: center;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header>Jeoffy Hipolito Resume</header>
+    <nav> <a href="/">Home</a></nav>
+    <main>
+        <article>
+            <h2>Personal Info:</h2>
+                <ul type=101>
+                    <li>Name: Jeoffy Hipolito</li>
+                    <li>Age: 18</li>
+                    <li>Sex: Male</li>
+                    <li>Address: Green island</li>
+                    <li>Contact No: 0275837432</li>
+                </ul>
+
+        </article>
+        <article class="experience">
+            <h2>Experience:</h2>
+            <h5>TracMap | <span>Web Developer</span></h5>
+            <uL>
+                <li>Develop and write new components for the company’s product.</li>
+                <li>Working with others to complete sprint items and contribute to a small agile and lean team.</li>
+                    <li>Participate in a daily stand-up meeting.</li>
+            </uL>
+            <hr />
+            <h5>Tuapeka Gold Print | <span>Web Developer</span></h5>
+            <uL>
+                <li>Develop and write new components for the company’s product.</li>
+                <li>Working with others to complete sprint items and contribute to a small agile and lean team.</li>
+                    <li>Participate in a daily stand-up meeting.</li>
+            </uL>
+
+        </article>
+        <aside>
+            <h2>Skills:</h2>
+            <ul class="skills">
+                <li>ReactJS</li> 
+                <li>Redux</li>
+                <li>React Query</li>
+                <li>Material-UI/MUI</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>Jest</li>
+                <li>Cypress</li>
+                <li>NextJs</li>
+                <li>GraphQL</li>
+                <li>MongoDB</li>
+                <li>AngularJS</li>
+                <li>JQuery</li>
+                <li>NodeJS</li>
+                <li>HTML</li>
+                <li>CSS/SCSS</li>
+                <li>Bootstrap Framework</li>
+                <li>PHP Frameworks</li>
+                <li>MySQL</li>
+                <li>ASP.Net MVC</li>
+                <li>C#</li>
+                <li>WordPress</li>
+                <li>SilverStripe</li>
+                <li>Adobe Creative Suite</li>
+                <li>Figma</li>
+
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>All Rights Reserved 2022</p>
+    </footer>
+  </body>
+</html>
